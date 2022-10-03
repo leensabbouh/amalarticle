@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route exact path="/amalarticle/" element={<Arabic />} />
+          <Route exact path="/amalarticle" element={<Arabic />} />
           <Route exact path="/amalarticle/en" element={<English />} />  
         </Routes>
       </div>
