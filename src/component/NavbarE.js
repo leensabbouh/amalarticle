@@ -6,7 +6,7 @@ function NavbarE() {
   return (
     <div className="flex justify-between items-center h-8 w-full">
                 
-        <Link to="/" className="text-white text-bold">Arabic</Link>
+        <Link to="/amalarticle" className="text-white text-bold">Arabic</Link>
       <img src={logo} className="w-25 logo" alt="" />
       
      

@@ -6,7 +6,7 @@ function NavbarA() {
   return (
     <div className="flex justify-between items-center h-8 w-full">
       <img src={logo} className="w-25 logo" alt="" />
-      <Link to="/en" className="text-white text-bold">
+      <Link to="/amalarticle/en" className="text-white text-bold">
         English
       </Link>
     </div>
