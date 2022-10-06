@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/amalarticle/static/css/main.d6a99dd4.css",
-    "main.js": "/amalarticle/static/js/main.96cda7dc.js",
+    "main.css": "/amalarticle/static/css/main.0ed790e7.css",
+    "main.js": "/amalarticle/static/js/main.3698781d.js",
     "static/js/787.fe233384.chunk.js": "/amalarticle/static/js/787.fe233384.chunk.js",
+    "static/media/تعديل 2.jpg": "/amalarticle/static/media/تعديل 2.bbdd0e8cbd46ced75ade.jpg",
     "static/media/O3.jpg": "/amalarticle/static/media/O3.ecd706cea92f5a62bddd.jpg",
     "static/media/O2.jpg": "/amalarticle/static/media/O2.7cf9bed1065fa31b2036.jpg",
     "static/media/O1-1.jpg": "/amalarticle/static/media/O1-1.e6bf7f3396e78cb7808f.jpg",
     "static/media/Ot2.jpg": "/amalarticle/static/media/Ot2.741e4a2c9dbf7a85220f.jpg",
-    "static/media/Nu.jpg": "/amalarticle/static/media/Nu.929ada915e5c6738a148.jpg",
     "static/media/c2.jpg": "/amalarticle/static/media/c2.1e34402571e88102fcb2.jpg",
     "static/media/base-logo.png": "/amalarticle/static/media/base-logo.182b46bdc3b4bba10fb4.png",
     "static/media/GESSTextBold-Bold.woff": "/amalarticle/static/media/GESSTextBold-Bold.ff64e392e52f1afcc353.woff",
@@ -15,12 +15,12 @@
     "static/media/GESSTextBold-Bold.woff2": "/amalarticle/static/media/GESSTextBold-Bold.dfa5691f8f99bd82591d.woff2",
     "static/media/GESSTextMedium-Medium.woff2": "/amalarticle/static/media/GESSTextMedium-Medium.0cebbfea1317c2d308b7.woff2",
     "index.html": "/amalarticle/index.html",
-    "main.d6a99dd4.css.map": "/amalarticle/static/css/main.d6a99dd4.css.map",
-    "main.96cda7dc.js.map": "/amalarticle/static/js/main.96cda7dc.js.map",
+    "main.0ed790e7.css.map": "/amalarticle/static/css/main.0ed790e7.css.map",
+    "main.3698781d.js.map": "/amalarticle/static/js/main.3698781d.js.map",
     "787.fe233384.chunk.js.map": "/amalarticle/static/js/787.fe233384.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6a99dd4.css",
-    "static/js/main.96cda7dc.js"
+    "static/css/main.0ed790e7.css",
+    "static/js/main.3698781d.js"
   ]
 }
