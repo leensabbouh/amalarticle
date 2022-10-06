@@ -4,6 +4,8 @@ import Title from "../Title";
 function Text11() {
   return (
     <div className="dir-rtl text-center">
+      <h2 className="text-xl font-bold my-8">ماذا يقول القانون؟
+      </h2>
       <div className="text-body w-11/12  m-auto h-full text-right text-lg0">
         <p>
           تثير هذه المشكلة تساؤلات حول قانونية هذه الإجراءات وكيف ينظر لها

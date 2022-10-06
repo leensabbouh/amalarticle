@@ -14,15 +14,20 @@ import Text11 from "./text-ar/Text11";
 import Text10 from "./text-ar/Text10";
 import Part from "./Part";
 import YesOrNoP from "./YesorNoP";
-import NavbarA from "./NavbarA";
+import NavbarE from "./NavbarE";
 import Title from "./Title";
+import NavbarA from "./NavbarA";
+import Avarage from "./Avarage";
+import Text2 from "./text-ar/Text2";
+import Text7 from "./text-ar/Text7";
 function Arabic() {
   return (
     <div>
-      <Home navbar={<NavbarA />} />
+      <Home navbar={<NavbarA />} 
+      t={"منظمات المجتمع المدني السوري شريكات في سلب النساء اجازة الأمومة"}/>
       <div className="py-5 m-auto container">
         <Text1 />
-        <Part5 />
+        <Part5 tt={" حق العاملات بإجازة الأمومة مسلوب"} av={<Avarage/>} te={<Text2/>}/>
         <Text3 />
         </div>
         <Title title={'دُعاء القيصرية'} img={'background-title3'}/>
@@ -35,8 +40,15 @@ function Arabic() {
       <Title title={'نساء يخفين حملهن '} img={'background-title4'}/>
       <div className="py-5 m-auto container">
         <Text6 />
-        <Part2 />
+        </div>
+          
+      <Title title={'  مزاجية المنظمات ومسؤولية الجهات المانحة'} img={'background-title2'}/>
+      
+      <div className="py-5 m-auto container">
+        <Part2 te={<Text7/>}/>
         <Part
+        
+        text={<Text8 />}
           chart={
             <YesOrNoP
               titles=" هل هناك عقد عمل موثق بينك وبين الجمعية/المنظمة التي تعملين بها؟"
@@ -48,10 +60,11 @@ function Arabic() {
               ]}
             />
           }
-          text={<Text8 />}
         />
 
         <Part
+        
+        text={<Text9 />}
           chart={
             <YesOrNoP
               titles="هل لديك نسخة مصورة من عقد العمل؟"
@@ -64,10 +77,8 @@ function Arabic() {
               ]}
             />
           }
-          text={<Text9 />}
         />
         <Text10 /></div>
-        <Title title={'ماذا يقول القانون؟ '} img={'background-title2'}/>
         <div className="py-5 m-auto container">
         <Text11 /></div>
         <Title title={'دعوات لتغيير الواقع '} img={'background-title5'}/>

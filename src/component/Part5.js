@@ -2,14 +2,13 @@ import React from "react";
 import Avarage from "./Avarage";
 import Text2 from "./text-ar/Text2";
 
-function Part5() {
+function Part5({tt,av,te}) {
   return (
     <div className="dir-ltr my-5 text-center">
-      <h2 className="text-xl text-header font-bold my-3">
-        حق العاملات بإجازة الأمومة مسلوب
+      <h2 className="text-xl text-header font-bold my-3">{tt}
       </h2>
-      <Text2 />
-      <Avarage />
+      {te}
+      {av}
     </div>
   );
 }

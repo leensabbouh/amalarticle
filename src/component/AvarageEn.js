@@ -4,11 +4,11 @@ import { Chart } from "react-google-charts";
 
 function Avarage() {
   var chart_data = [
-    ["المدة", "النسبة"],
-    ["أقل من شهر", 48],
-    ["بين شهر لشهرين", 24],
-    ["3أشهر", 16.42],
-    ["أكثر من 3أشهر", 2.2],
+    ["Duration", "Percentage"],
+    ["Less than month  ", 48],
+    ["  One to two months", 24],
+    ["3 months", 16.42],
+    [" More than 3 months ", 2.2],
   ];
   return (
     <div className="m-auto w-4/5">
