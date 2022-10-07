@@ -23,7 +23,9 @@ import Text7 from "./text-en/Text7";
 function English() {
   return (
     <div>
-      <Home navbar={<NavbarE />} 
+      <Home navbar={<NavbarE />}
+      h={'Investigation by :'} 
+      name={'Amal Hmedosh'}
       t={"Syrian Civil Society Organizations Accomplice in Robbing Women of Maternity Leave "}/>
       <div className="py-5 m-auto container">
         <Text1 />

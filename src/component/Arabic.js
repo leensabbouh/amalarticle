@@ -24,6 +24,8 @@ function Arabic() {
   return (
     <div>
       <Home navbar={<NavbarA />} 
+      h={'تحقيق'}
+      name={'أمل حميدوش'}
       t={"منظمات المجتمع المدني السوري شريكات في سلب النساء اجازة الأمومة"}/>
       <div className="py-5 m-auto container">
         <Text1 />
